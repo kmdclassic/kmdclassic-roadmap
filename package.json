@@ -1,0 +1,17 @@
+{
+  "name": "kmdcl-roadmap",
+  "version": "1.0.0",
+  "description": "Komodo Classic Roadmap Website",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "keywords": ["eleventy", "roadmap", "komodo-classic"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
+

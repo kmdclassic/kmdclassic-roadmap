@@ -1,0 +1,85 @@
+{
+  "milestones": [
+    {
+      "id": "core-release",
+      "title": "Core Daemon & Qt Wallet Release",
+      "date": "December 2025",
+      "status": "completed",
+      "description": "The initial release of Komodo Classic Core Daemon and Komodo Classic Qt Wallet (v1.0.0-beta25) marks a foundational milestone in the project's development. This release introduces the core infrastructure necessary for network operations, providing users with essential tools for transaction processing, wallet management, and blockchain interaction. The beta release demonstrates significant progress in restoring the original Komodo vision with enhanced stability and performance optimizations.",
+      "links": [
+        {
+          "text": "GitHub Release",
+          "url": "https://github.com/kmdclassic/KmdClassic/releases/tag/v1.0.0-beta25"
+        }
+      ]
+    },
+    {
+      "id": "notary-integration",
+      "title": "S8 Notary Nodes Integration",
+      "date": "December 2025 - January 2026",
+      "status": "upcoming",
+      "description": "Integration of S8 Komodo Notary Nodes into the KMDCL network represents a critical step in establishing robust network security and reliability. These notary nodes bring proven infrastructure and expertise from the Komodo ecosystem, ensuring seamless notarization processes and enhanced network stability. This integration leverages the established S8 node infrastructure to provide immediate security benefits to the KMDCL network.",
+      "links": [
+        {
+          "text": "Notary Nodes Info",
+          "url": "https://kmdclassic.com/notary-nodes"
+        }
+      ]
+    },
+    {
+      "id": "mainnet-launch",
+      "title": "Mainnet Launch & KMD Hardfork",
+      "date": "January 5-6, 2026",
+      "status": "upcoming",
+      "description": "The Komodo Classic mainnet will launch at block #4771595, coinciding with the KMD hardfork. This pivotal event represents the official commencement of the KMDCL blockchain, reintroducing key features such as shielded transactions and 5% AUR (Active User Rewards) for KMDCL holders. The synchronized launch with the KMD hardfork ensures a clean separation and establishes KMDCL as an independent blockchain network.",
+      "links": [
+        {
+          "text": "Countdown Timer",
+          "url": "https://countdown.kmdclassic.com/"
+        }
+      ],
+      "blockNumber": 4771595
+    },
+    {
+      "id": "explorer-electrum",
+      "title": "Blockchain Explorer & Electrum Server",
+      "date": "Early January 2026",
+      "status": "upcoming",
+      "description": "Deployment of a dedicated KMDCL blockchain explorer and Electrum server will significantly enhance network transparency and user accessibility. The explorer provides comprehensive transaction tracking, block information, and address monitoring capabilities. The Electrum server enables lightweight wallet functionality, allowing users to interact with the KMDCL network without running a full node, thereby reducing resource requirements and improving user experience.",
+      "links": []
+    },
+    {
+      "id": "rc1-release",
+      "title": "Komodo Classic Core Daemon & Qt Wallet RC1",
+      "date": "Mid January 2026",
+      "status": "upcoming",
+      "description": "The release candidate 1 (RC1) of Komodo Classic Core Daemon and Komodo Classic Qt Wallet represents the finalization of the network separation between KMD and KMDCL. This release incorporates critical protocol changes and network parameters that definitively establish KMDCL as an independent blockchain, ensuring complete isolation from the KMD network. The RC1 release includes final consensus rule modifications, network identifier updates, and compatibility improvements that guarantee secure and stable operation of the KMDCL network as a standalone blockchain ecosystem.",
+      "links": []
+    },
+    {
+      "id": "dpow-notarization",
+      "title": "dPoW Notarization Implementation",
+      "date": "January 2026 (TBA)",
+      "status": "upcoming",
+      "description": "Implementation of delayed Proof of Work (dPoW) notarization for PIRATE (ARRR) within the KMDCL network, along with establishing KMDCL notarization on the Litecoin (LTC) blockchain. This dual notarization approach enhances cross-chain security by securing KMDCL with Litecoin's hash power, while simultaneously providing notarization services to the PIRATE chain. This creates a robust security model that protects against 51% attacks and ensures network integrity.",
+      "links": []
+    },
+    {
+      "id": "dex-spv",
+      "title": "DEX Launch & SPV Wallet Development",
+      "date": "Q1 2026",
+      "status": "upcoming",
+      "description": "The first quarter of 2026 will see the launch of a decentralized exchange (DEX) enabling seamless swaps between KMD and KMDCL tokens. This DEX will operate on-chain, providing trustless exchange capabilities without requiring intermediaries. Concurrently, development of a Simplified Payment Verification (SPV) wallet will provide users with a lightweight, non-full-node solution for managing KMDCL assets. The SPV wallet will offer essential wallet functionality while maintaining security through cryptographic proofs, making KMDCL more accessible to users with limited computational resources.",
+      "links": []
+    },
+    {
+      "id": "notary-elections",
+      "title": "Notary Node Elections Preparation",
+      "date": "Q2 2026",
+      "status": "upcoming",
+      "description": "Preparations for the inaugural Komodo Classic Notary Node elections will commence in the second quarter of 2026. This process involves drafting comprehensive regulations and governance rules that will define the notary node selection process, responsibilities, and operational requirements. A public voting mechanism will be implemented to allow the community to participate in shaping consensus protocol modifications and governance parameters. This democratic approach ensures that the KMDCL network evolves according to community consensus while maintaining technical excellence and security standards.",
+      "links": []
+    }
+  ]
+}
+

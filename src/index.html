@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: Home
+---
+
+<div class="timeline">
+    {% for milestone in roadmap.milestones %}
+    <div class="milestone {{ milestone.status }}">
+        <div class="milestone-marker"></div>
+        <div class="milestone-content">
+            <div class="milestone-header">
+                <h2 class="milestone-title">{{ milestone.title }}</h2>
+                <div>
+                    <span class="milestone-date">{{ milestone.date }}</span>
+                    <span class="status-badge {{ milestone.status }}">{{ milestone.status }}</span>
+                </div>
+            </div>
+            <p class="milestone-description">{{ milestone.description }}</p>
+            {% if milestone.blockNumber %}
+            <div class="block-number">Block #{{ milestone.blockNumber }}</div>
+            {% endif %}
+            {% if milestone.links and milestone.links | length > 0 %}
+            <div class="milestone-links">
+                {% for link in milestone.links %}
+                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="milestone-link">{{ link.text }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
