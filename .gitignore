@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build outputs (if dist is generated, uncomment the line below)
-# dist/
+# Build outputs
+# docs/ is used for GitHub Pages, so it should be committed
 
 # Eleventy cache
 .cache/

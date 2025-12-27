@@ -50,7 +50,7 @@ The site will be available at `http://localhost:8080`
 │   ├── css/
 │   │   └── style.css         # Main stylesheet
 │   └── index.html            # Main page
-├── dist/                     # Generated site (after build)
+├── docs/                      # Generated site (after build) - used for GitHub Pages
 ├── .eleventy.js              # Eleventy configuration
 └── package.json
 ```
@@ -68,5 +68,5 @@ To update roadmap milestones, edit `src/_data/roadmap.json`. Each milestone shou
 
 ## Deployment
 
-After building (`npm run build`), the `dist/` folder contains the static site ready for deployment to any static hosting service (Netlify, Vercel, GitHub Pages, etc.).
+After building (`npm run build`), the `docs/` folder contains the static site ready for deployment. For GitHub Pages, the site is automatically deployed from the `docs/` folder.
 
